@@ -1,6 +1,6 @@
 package day02;
 
-import java.util.Scanner;.*;
+import java.util.Scanner;
 
 public class Ex01 {
 
@@ -10,6 +10,7 @@ public class Ex01 {
 		// 메세지 출력
 		System.out.println("좋아하는 가수는? : ");
 		String str = sc.nextLine();
+		System.out.println("제가 좋아하는 가수는 " + str + "입니다.");
 		
 		
 	
