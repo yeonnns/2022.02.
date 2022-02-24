@@ -1,4 +1,3 @@
-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 //깃허브 
 
 컴퓨터
 	|__중앙처리장치(cpu)
