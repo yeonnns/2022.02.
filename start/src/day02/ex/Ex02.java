@@ -10,7 +10,7 @@
 //
 //}
 
-package day02;
+package day02.ex;
 
 import javax.swing.*;
 public class Ex02 {

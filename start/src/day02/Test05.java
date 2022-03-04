@@ -5,6 +5,7 @@ public class Test05 {
 		//3.14를 folat 타입 변수 pi에 기억해보자. pi(double)위에 pi(float)도 쌓는것??
 		float pi;
 		pi = 3.14f;
+		System.out.println(pi);
 		
 	}
 	

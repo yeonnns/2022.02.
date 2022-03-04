@@ -1,4 +1,4 @@
-package day02;
+package day02.ex;
 
 import java.util.Scanner;
 
@@ -12,10 +12,10 @@ public class Ex01 {
 		String str = sc.nextLine();
 		System.out.println("제가 좋아하는 가수는 " + str + "입니다.");
 		
-		
-	
-
 	}
 
 }
+	
+
+
 

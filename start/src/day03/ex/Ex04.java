@@ -14,36 +14,25 @@ public class Ex04 {
 //		(1/24)/60 = 1분
 //		((1/24)/60)/60 = 1초
 		
-		double year = 365.2426;
+		//데이터 변수에 기억
+		double total = 365.2426;
 		//몇일인지 계산
-		int day = (int)year / 1 ;
+		int day = (int)total / 1 ;
 		//일을 제외한 시간 단위를 초로 계산
-		double tmp = (year % 1)*24*60*60;
+		double tmp = (total % 1)*24*60*60;
 		//몇시간인지 계산
-		int hour = ((int)tmp / (60*60));
+		int hour = (int)tmp / 3600;
 		//몇일 몇시간 제외한 분단위 계산
-		double tmp1 = tmp % (60*60);
+		double tmp1 = tmp % 3600;
 		int minutes = (int)tmp1 / 60 ;
-		int seconds = (int)tmp1 % 60 ;
-//	
+		int seconds = (int)tmp1 % 60 ;	
+		
+		
+		System.out.println("365.2426은 " + day + "일" + hour + "시간" 
+		+ minutes + "분" + seconds + "초");
 	
-	
 		
 		
-		System.out.println("365.2426은 " + day + "일" + hour + "시간" + minutes + "분" + seconds + "초");
-		
-
-		System.out.println(tmp);
-		System.out.println(hour);
-		System.out.println(tmp1);
-		System.out.println(minutes);
-		System.out.println(seconds);
-		
-
-		
-		
-		
-
 
 	}
 
