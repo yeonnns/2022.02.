@@ -1,11 +1,10 @@
 # day06
 
-Ex 12 
 
 	스캐너 사용시
 	Scanner sc = new Scanner(System.in);
 	System.out.println
-	int code = sc.nextInt();
+	int code = sc.nextInt();.
 	System.out.print("사용량 입력 : ");
 	int sayong = sc.nextInt();
 	
