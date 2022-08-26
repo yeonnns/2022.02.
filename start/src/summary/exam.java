@@ -16,6 +16,8 @@ public class exam {
 		reverse();
 		life();
 		printCoffeePrice(CoffeeType.AMERICANO);
+		threeX();
+		markaver();
 	}
 	
 	public static void aver(){
@@ -89,5 +91,26 @@ public class exam {
 	     System.out.println(String.format("가격은 %d원 입니다.", price));
 	    }
 
+	 static void threeX() {
+		 int result = 0;
+		 int i = 0;
+		 while(i <= 1000) {
+			 if (i % 3  == 0 ) {
+				 result +=i;
+			 }
+			 i +=1;
+		 }
+	 System.out.println(result);
+	 }
+	 
+	 static void markaver() {
+		 int[] marks = {70, 65, 80, 50, 55, 90, 95, 100};
+		 int total = 0;
+		 for(int mark: marks) {
+			 total += mark;
+		 }
+		 float average = (float) total / marks.length;
+		 System.out.println(average);
+	 }
 	
 }
